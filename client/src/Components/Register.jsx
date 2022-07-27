@@ -51,9 +51,6 @@ const Register = () => {
     }
   };
 
-  // const CLIENTID = "1b0195b662d33c65bb7a";
-  // const CILENTSECRET = "7cc2e5ff39f0b39c560bb2cbea45ed0b36833fe5";
-
   return (
     <div className={Styles.login_box}>
       {loader ? <div className="loader absoloted"></div> : ""}
